@@ -281,14 +281,14 @@ li {
     text-align: center;
 }
 
-.buttonTerms {
+/* .buttonTerms {
     width: 145px;
     height: 24px;
     color: #292b2c;
     gap: normal;
     line-height: 24px;
     text-align: center;
-}
+} */
 
 .terms {
     color: #ffffff;
@@ -298,6 +298,7 @@ li {
     line-height: 15px;
     text-align: center;
     opacity: .75;
+    text-decoration: underline;
 }
 
 h2 {
@@ -352,7 +353,10 @@ h2 {
     width: 880px;
     height: 216px;
     color: #656B7B;
-    flex-basis: 66.6667%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-basis: 66.6667%; */
     line-height: 24px;
     padding: 0px 8px;
     text-align: left;
@@ -360,8 +364,8 @@ h2 {
 }
 
 .headerBrowse {
-    width: 864px;
-    height: 18px;
+    /* width: 864px;
+    height: 18px; */
     color: #656B7B;
     font-size: 12px;
     font-weight: 500;
@@ -370,14 +374,14 @@ h2 {
     text-align: left;
 }
 
-.browse .browseTwo .browseThree .browseFour {
+/* .browse .browseTwo .browseThree .browseFour {
     width: 216px;
     height: 174px;
     color: #656B7B;
     flex-basis: 25%;
     line-height: 24px;
     text-align: left;
-}
+} */
 
 .help {
     width: 220px;
@@ -479,6 +483,7 @@ h2 {
     font-family: 'Graphik', Arial, Helvetica, sans-serif;
     background-color: transparent;
     border: none;
+    line-height: 60px;
 }
 
 .buttonTrial2 {
